@@ -124,6 +124,12 @@
     }
 }
 @media (max-width:576px) {
+
+    .header-right ul li {
+        border: none !important;
+    
+    }
+
     .banner a {
         width: 15%;
         margin: auto;
@@ -141,6 +147,48 @@
     .contract-us {
         width: 100%;
         margin-bottom: 65px;
+    }
+    
+}
+@media (max-width:500px) {
+    .banner h1 {
+        font-size: 17px;
+    }
+
+    .banner h2 {
+      font-size: 14px;
+    }
+
+
+    .header-right ul li a {
+        font-size: 15px;
+    }
+    
+    .header-right ul li {
+        border: none !important;
+    
+    }
+    .icon {
+       
+        padding: 10px;
+        font-size: 30px;
+        
+    }
+    .footer {
+         
+        padding: 20px;
+        font-size: 18px;
+    }
+    
+}
+@media (max-width:320px) {
+    .icon span {
+        
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        font-size: 20px;
+        margin-bottom: 20px;
     }
     
 }
